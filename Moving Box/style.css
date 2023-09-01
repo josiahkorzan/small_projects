@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    font-size: 1.5em;
+    background-color: rgb(179, 179, 179);
+}
+
+.container {
+    position: relative;
+    top: 200px;
+} 
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -100px;
+}
+
+canvas {
+    border: 1px solid rgba(101, 101, 101, 0.196);
+    border-radius: 2px;
+    background-color: white;
+    margin: auto;
+}
