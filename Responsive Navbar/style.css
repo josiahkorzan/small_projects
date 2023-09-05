@@ -1,0 +1,15 @@
+:root {
+    --textgray: #505050;
+}
+
+* {
+    margin: 0;
+	padding: 0;
+    border: 0;
+	box-sizing: border-box;
+}
+
+body {
+    font-family:'Courier New', Courier, monospace;
+    background-color: #F1F5F8;
+}
